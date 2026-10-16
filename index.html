@@ -36,8 +36,9 @@ p{margin:0}
 /* hero */
 .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-block:clamp(48px,7vw,104px)}
 .meta{font-size:15px;color:var(--muted)}
-.hero h1{font-size:clamp(42px,6.6vw,88px);line-height:1.02;letter-spacing:-.02em;margin-top:20px;text-transform:uppercase}
-.hero .subhead{margin-top:26px;font-size:clamp(19px,1.7vw,23px);max-width:36ch;color:var(--ink-2)}
+.hero h1{font-size:clamp(56px,8.4vw,112px);line-height:1;letter-spacing:-.03em;margin-top:20px}
+.hero .tagline{margin-top:18px;font-size:clamp(26px,2.8vw,38px);font-weight:700;line-height:1.15;letter-spacing:-.01em}
+.hero .subhead{margin-top:14px;font-size:clamp(19px,1.7vw,23px);color:var(--ink-2)}
 .btn{display:inline-block;margin-top:32px;padding:16px 26px;background:var(--black);color:var(--on-black);text-decoration:none;border-radius:999px;font-size:16px}
 .btn:hover{background:#262626}
 .hero img{width:100%;max-width:440px;margin-inline:auto}
@@ -259,7 +260,7 @@ section{padding-block:clamp(72px,9vw,120px)}
 .center .eyebrow{justify-content:center}
 .center .eyebrow::before{content:"";flex:1;height:1px;background:var(--rule)}
 .problem-big{font-size:clamp(28px,4.2vw,56px);line-height:1.1;letter-spacing:-.02em;font-weight:700;margin-top:40px}
-.problem-sub{margin-top:14px;font-size:clamp(28px,4.2vw,56px);color:var(--ink);font-weight:700;line-height:1.1;letter-spacing:-.02em}
+.problem-sub{margin-top:20px;font-size:clamp(20px,2.2vw,30px);color:var(--ink);font-weight:500;line-height:1.25}
 .intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,5vw,72px);align-items:center;margin-top:48px}
 .intro img{width:100%;max-width:440px;margin-inline:auto}
 .intro h3{font-size:clamp(30px,3.6vw,48px);line-height:1.05;letter-spacing:-.02em}
@@ -324,8 +325,9 @@ footer{background:var(--beige);color:var(--ink);border-top:1px solid var(--rule)
 
 <header class="wrap hero" id="top">
   <div>
-    <h1 style="margin-top:0">Make showering easier with TubStep™</h1>
-    <p class="subhead">A hands-free, one-step hair clog prevention system for shower and bathtub drains.</p>
+    <h1 style="margin-top:0">TubStep™</h1>
+    <p class="tagline">Making showering easier.</p>
+    <p class="subhead one">A hands-free, one-step hair clog prevention.</p>
     <a class="btn" href="#problem">Explore the design ↓</a>
   </div>
   <img src="img/cap-render.png" alt="Render of the TubStep drain cap and body" width="528" height="694">
@@ -334,8 +336,8 @@ footer{background:var(--beige);color:var(--ink);border-top:1px solid var(--rule)
 <section id="problem">
   <div class="wrap">
     <p class="eyebrow">The problem</p>
-    <p class="problem-big one">Hair Clogs Showers and Bathtubs.</p>
-    <p class="problem-sub">Pulling it out of the drain is gross and inconvenient.</p>
+    <p class="problem-big one">Clogs in Shower Drains Suck.</p>
+    <p class="problem-sub one">Pulling hair out of the drain is gross and inconvenient.</p>
   </div>
 </section>
 
